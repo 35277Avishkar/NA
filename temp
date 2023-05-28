@@ -1,0 +1,5 @@
+public class tempConvetApp {
+    public static void convertCelsiusToFahrenheit(Decimal celsius) {
+        Decimal fahrenheit = (celsius * 9 / 5) + 32;
+        System.debug('Celsius: ' + celsius + ' | Fahrenheit: ' + fahrenheit);
+    }}
