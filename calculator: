@@ -1,0 +1,13 @@
+public class CalculatorEx {
+    public static void calculate(Integer num1, Integer num2) {
+        Integer sum = num1 + num2;
+        Integer difference = num1 - num2;
+        Integer product = num1 * num2;
+        Decimal quotient = num1 / (Decimal)num2;
+
+        System.debug('Sum: ' + sum);
+        System.debug('Difference: ' + difference);
+        System.debug('Product: ' + product);
+        System.debug('Quotient: ' + quotient);
+    }
+}
