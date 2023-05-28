@@ -1,0 +1,15 @@
+public class PalindromeCheck {
+    public static void checkPalindrome(String input) {
+         String reversedString = '';
+        for(Integer i = input.length() - 1; i >= 0; i--) {
+            reversedString += input.substring(i, i+1);
+        }
+      
+              if (input.equalsIgnoreCase(reversedString)) {
+            System.debug(input + ' is a palindrome.');
+        } else {
+            System.debug(input+ ' is not a palindrome.');
+        }
+    }
+  
+    }
